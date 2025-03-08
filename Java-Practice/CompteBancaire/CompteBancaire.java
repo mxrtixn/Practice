@@ -1,4 +1,3 @@
-package CompteBancaire;
 public class CompteBancaire {
     private double solde;
 

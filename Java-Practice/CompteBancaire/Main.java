@@ -1,4 +1,3 @@
-package CompteBancaire;
 public class Main {
     public static void main(String[] args) {
         // Création d'un compte bancaire avec un solde de 100 MAD
