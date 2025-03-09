@@ -7,7 +7,6 @@ class Boutique {
         this.nombreProduits = 0;
     }
 
-    // Ajouter un produit à la boutique
     public void ajouterProduit(Produit p) {
         if (nombreProduits < produits.length) {
             produits[nombreProduits] = p;
