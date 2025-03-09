@@ -11,7 +11,7 @@ class Boutique {
         if (nombreProduits < produits.length) {
             produits[nombreProduits] = p;
             nombreProduits++;
-            System.out.println(p.nom + " ajouté à la boutique.");
+            System.out.println(p.nom + " ajoute a la boutique.");
         } else {
             System.out.println("La boutique est pleine, impossible d'ajouter plus de produits.");
         }
