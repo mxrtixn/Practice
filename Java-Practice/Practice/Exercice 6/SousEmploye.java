@@ -1,5 +1,5 @@
 public class SousEmploye extends EmployeBase {
-    private static final double TARIF_HORAIRE = 150;
+    private static double TARIF_HORAIRE = 150;
 
     public SousEmploye(String nom, String prenom, String identifiant, int heuresTravaillees) {
         super(nom, prenom, identifiant, heuresTravaillees);
