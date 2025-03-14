@@ -1,4 +1,4 @@
-public class Emloye {
-    public double calculerSalaire();
-
+interface Employe {
+    double calculerSalaire();
+    double calculerCoutTotal();
 }
