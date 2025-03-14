@@ -14,6 +14,6 @@ public abstract class EmployeBase implements Employe {
     public abstract double calculerSalaire();
 
     public double calculerCoutTotal() {
-        return calculerSalaire() * 1.15; // Ajout de 15% de charges sociales
+        return calculerSalaire() * 1.15;
     }
 }
