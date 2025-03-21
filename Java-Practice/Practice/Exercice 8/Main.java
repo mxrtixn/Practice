@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
         Stock stock = new Stock();
 
-        Produit p1 = new Produit("Ordinateur",  4000);
-        Produit p2 = new Produit("Clavier", 140);
-        Produit p3 = new Produit("Souris", 80);
+        Produit p1 = new Produit("Ordinateur",  8000);
+        Produit p2 = new Produit("Clavier", 450);
+        Produit p3 = new Produit("Souris", 250);
 
         stock.ajouterProduit(p1);
         stock.ajouterProduit(p2);
